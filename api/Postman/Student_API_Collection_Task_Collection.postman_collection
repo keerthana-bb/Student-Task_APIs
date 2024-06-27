@@ -1,0 +1,349 @@
+{
+	"info": {
+		"_postman_id": "ed591940-f6c7-442d-8652-5d9d50e5c058",
+		"name": "Student_API_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28596367",
+		"_collection_link": "https://solar-comet-556261.postman.co/workspace/BBAssist~43a2321a-b420-4cdc-8c76-3c2119ea2263/collection/28596367-ed591940-f6c7-442d-8652-5d9d50e5c058?action=share&source=collection_link&creator=28596367"
+	},
+	"item": [
+		{
+			"name": "Tasks_Collection",
+			"item": [
+				{
+					"name": "TaskAddTriggerSchoolStatuses",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/TaskAddTriggerSchoolStatuses",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"TaskAddTriggerSchoolStatuses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TaskAddTriggerTimeFrameTypes",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/TaskAddTriggerTimeFrameTypes",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"TaskAddTriggerTimeFrameTypes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TaskAddTriggers",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/TaskAddTriggers",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"TaskAddTriggers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TaskCategories",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/TaskCategories",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"TaskCategories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TaskDocumentAttachments",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/TaskDocumentAttachments",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"TaskDocumentAttachments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TaskGridDetails",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/TaskDocumentAttachments",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"TaskDocumentAttachments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TaskPolicies",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/TaskPolicies",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"TaskPolicies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TaskResults",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/TaskResults",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"TaskResults"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TaskStatuses",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "Dufo4081@!",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gkumar@700031cm.onmicrosoft.com",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://sisclientweb-700031.campusnexus.cloud/ds/campusnexus/TaskStatuses",
+							"protocol": "https",
+							"host": [
+								"sisclientweb-700031",
+								"campusnexus",
+								"cloud"
+							],
+							"path": [
+								"ds",
+								"campusnexus",
+								"TaskStatuses"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

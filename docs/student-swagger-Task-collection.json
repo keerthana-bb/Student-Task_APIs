@@ -1,0 +1,154 @@
+openapi: 3.0.1
+info:
+  title: Student API Collection
+  description: |
+    This API provides endpoints for handling tasks related to campus management. It includes endpoints for retrieving task-related information.
+  version: 1.0.0
+  contact:
+    name: API Support
+    url: https://solar-comet-556261.postman.co
+    email: support@example.com
+servers:
+  - url: https://sisclientweb-700031.campusnexus.cloud
+    description: Campus Nexus Server
+paths:
+  /ds/campusnexus/TaskAddTriggerSchoolStatuses:
+    get:
+      summary: Get Task Add Trigger School Statuses
+      operationId: getTaskAddTriggerSchoolStatuses
+      responses:
+        '200':
+          description: A list of task add trigger school statuses
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+      security:
+        - basicAuth: []
+  /ds/campusnexus/TaskAddTriggerTimeFrameTypes:
+    get:
+      summary: Get Task Add Trigger Time Frame Types
+      operationId: getTaskAddTriggerTimeFrameTypes
+      responses:
+        '200':
+          description: A list of task add trigger time frame types
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+      security:
+        - basicAuth: []
+  /ds/campusnexus/TaskAddTriggers:
+    get:
+      summary: Get Task Add Triggers
+      operationId: getTaskAddTriggers
+      responses:
+        '200':
+          description: A list of task add triggers
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+      security:
+        - basicAuth: []
+  /ds/campusnexus/TaskCategories:
+    get:
+      summary: Get Task Categories
+      operationId: getTaskCategories
+      responses:
+        '200':
+          description: A list of task categories
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+      security:
+        - basicAuth: []
+  /ds/campusnexus/TaskDocumentAttachments:
+    get:
+      summary: Get Task Document Attachments
+      operationId: getTaskDocumentAttachments
+      responses:
+        '200':
+          description: A list of task document attachments
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+      security:
+        - basicAuth: []
+  /ds/campusnexus/TaskGridDetails:
+    get:
+      summary: Get Task Grid Details
+      operationId: getTaskGridDetails
+      responses:
+        '200':
+          description: A list of task grid details
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+      security:
+        - basicAuth: []
+  /ds/campusnexus/TaskPolicies:
+    get:
+      summary: Get Task Policies
+      operationId: getTaskPolicies
+      responses:
+        '200':
+          description: A list of task policies
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+      security:
+        - basicAuth: []
+  /ds/campusnexus/TaskResults:
+    get:
+      summary: Get Task Results
+      operationId: getTaskResults
+      responses:
+        '200':
+          description: A list of task results
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+      security:
+        - basicAuth: []
+  /ds/campusnexus/TaskStatuses:
+    get:
+      summary: Get Task Statuses
+      operationId: getTaskStatuses
+      responses:
+        '200':
+          description: A list of task statuses
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+      security:
+        - basicAuth: []
+components:
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
