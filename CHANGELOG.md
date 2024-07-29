@@ -14,7 +14,7 @@
 - N/A
 
 ### Deprecated
--N/A
+- N/A
 
 ### Fixed
 - N/A
